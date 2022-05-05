@@ -47,7 +47,7 @@ export function FeedBackContentStep({ feedbackType, onFeedbackRestartRequested, 
           onChange={(e) => setComment(e.target.value)}
         />
 
-        <footer>
+        <footer className="flex gap-2 mt-2">
           <ScreenShotButton onScreenShotTook={setScreenshot} screenshot={screenshot} />
           <button
             type="submit"
